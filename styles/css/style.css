@@ -19,15 +19,14 @@ body {
 }
 
 .hero {
-  background-image: linear-gradient(#8fb1e1, #85904e);
-  background-image: url(images/Britton.jpg);
+  background-image: url(/images/Britton.jpg);
   background-position: center center;
   background-size: 100%;
   background-repeat: no-repeat;
 }
 
 .hero:hover {
-  background-image: url(images/britton-water-tower.jpg);
+  background-image: url(/images/britton-water-tower.jpg);
 }
 
 .hero__title {
