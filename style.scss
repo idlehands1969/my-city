@@ -1,10 +1,3 @@
-/*  I WROTE THIS WITH SCSS
-    AND COMPILED IT WITH 
-    LIVE SASS COMPILER 
-    IN VS CODE, SO THAT'S 
-    WHY THE SELECTORS ARE 
-    GROUPED THE WAY THEY ARE */
-    
 		:root {
 			/* COLORS */
 			--cherry: #260F26;
@@ -128,7 +121,7 @@
 			margin-top: 80px;
 		}
 		
-		.guide__info {
+		.guide__flexbox {
 			display: flex;
 			flex-direction: column-reverse;
 			justify-content: center;
@@ -171,7 +164,7 @@
 		}
 		
 		@media (min-width: 600px) {
-				.activities__flexbox {
+				.activities__flexbox, .guide__flexbox {
 						flex-direction: row;
 				}
 		}
